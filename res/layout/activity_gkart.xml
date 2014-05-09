@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="21dp"
-        android:layout_toLeftOf="@+id/id_remove_btn"
-        android:text="@string/scan_button"/>
+        android:text="@string/scan_button" />
 
     <View
         android:id="@+id/div1"
@@ -76,19 +75,30 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/id_remove_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/id_scan_btn"
-        android:text="@string/remove_button" />
-
-    <Button
         android:id="@+id/id_save_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/div2"
         android:text="@string/save_button" />
+
+    <Button
+        android:id="@+id/id_remove_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/div2"
+        android:layout_marginRight="36dp"
+        android:layout_toLeftOf="@+id/id_save_btn"
+        android:text="@string/remove_button" />
+
+    <Button
+        android:id="@+id/id_profile_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/div1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/id_scan_btn"
+        android:text="Edit profile" />
 
 </RelativeLayout>

@@ -38,6 +38,7 @@ public class GkartActivity extends ActionBarActivity {
 	Button saveButton;
 	Button orderButton;
 	Button cancelButton;
+	Button editProfile;
 	int sno=1;
 	int idAdd = 200;
 	String FILENAME = "gkart";
@@ -84,6 +85,7 @@ public class GkartActivity extends ActionBarActivity {
 		removeButton = (Button) findViewById(R.id.id_remove_btn);
 		saveButton = (Button) findViewById(R.id.id_save_btn);
 		orderButton = (Button) findViewById(R.id.id_order_btn);
+		editProfile = (Button) findViewById(R.id.id_profile_btn);
 
 		scanButton.setOnClickListener(new OnClickListener() {
 
@@ -129,6 +131,16 @@ public class GkartActivity extends ActionBarActivity {
 				removeAll();
 				sno=1;
 				save();
+
+			}
+		});
+		
+		editProfile.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				save();
+				Intent intent = new Intent(GkartActivity.this, UserDataActivity.class);
+			    startActivity(intent);
 
 			}
 		});

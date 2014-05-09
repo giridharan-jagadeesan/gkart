@@ -5,7 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="scan_button">Scan Product Barcode</string>
-     <string name="remove_button">Remove Selected</string>
+     <string name="remove_button">Remove</string>
      <string name="save_button">Save</string>
      <string name="cancel_button">Cancel</string>
      <string name="order_button">Place Order</string>
@@ -19,5 +19,22 @@
      <string name="msg_wait">Please wait</string>
      <string name="msg_sending">Sending the order..</string>
      <string name="msg_order_placed">Order placed successfully...</string>
+     
+     <string name="user_data_page_title">1. Enter Personal Details</string>
+     
+     <string name="enter_name">Name:</string>
+     <string name="email_id">Email:</string>
+     <string name="address">Email:</string>
+     
+     <string name="retailer_prompt">Choose a retailer</string>
+ 
+    <string-array name="retailer_arrays">
+        <item>Select One..</item>
+        <item>Reliance Fresh</item>
+        <item>Spencer Daily</item>
+        <item>More</item>
+        <item>Nilgiris</item>
+        <item>Trinetra</item>
+    </string-array>
 
 </resources>
