@@ -20,7 +20,6 @@ Google play link: https://play.google.com/store/apps/details?id=com.google.zxing
 External libraries used:
 
 Below Open source classes are used from Google ZXing API:
-
 com.google.zxing.integration.android.IntentIntegrator.java
 com.google.zxing.integration.android.IntentResult.java
 
