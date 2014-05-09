@@ -8,6 +8,7 @@ Note 1: Try out! our "G-Kart.apk" which is available in bin folder by transferin
 
 Note 2: In this prototype we have not done field validation. That is, the fields Name, Email, Address, City, Pincode are mandatory but if empty it would still allow to navigate to next screen.
 
+Note 3: This application uses bar code to identify the product. But since there is currently no universal directory service available to uniquely identify the product information from the bar code, this prototype uses random product descriptions. The actual application  though can be integrated with the retailer's point of sale system which will contain barcode product mapping so that this app can retrieve and display the actual product details. Every  retailer should be able to expose their product barcode details to G-kart in order to obtain high business value.
 
 This app uses "Google ZXing" API for bar code scanning.
 
